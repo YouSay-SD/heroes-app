@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const LoginScreen = () => {
+export const LoginScreen = ({ history }) => {
 
   const handleLogin = () => {
-    console.log('click');
+    history.push('/');
   }
 
   return (
