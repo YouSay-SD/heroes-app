@@ -10,7 +10,7 @@ export const DashboardRoutes = () => {
     <>
       <Navbar />
 
-      <div>
+      <div className="container mt-3">
 
         <Switch>
 
