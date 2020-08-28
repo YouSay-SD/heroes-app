@@ -1,4 +1,3 @@
-import { Switch } from "react-router-dom";
 import { types } from "../types/types";
 
 export const authReducer = ( state = {}, action ) => {
